@@ -18,7 +18,7 @@ baseurl: ""           # leave empty for root domain
 url: "https://QiLab-PKU.github.io"  # change to your GitHub Pages URL
 
 # Theme
-theme: "academicpages/academicpages"
+theme: "academicpages/academicpages.github.io"
 
 # Author info (for citation purposes)
 author:
