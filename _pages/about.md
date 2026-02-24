@@ -1,5 +1,10 @@
-title: "About"
-permalink: /about/
+---
+permalink: /
+title: "Welcome to the Qi Lab"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 ## Welcome to the Qi Lab
