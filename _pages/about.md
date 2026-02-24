@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Our Lab"
+title: "Our  Lab"
 author_profile: true
 redirect_from: 
   - /about/
