@@ -34,13 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   googlescholar    : "https://scholar.google.com/citations?user=5cZdsEoAAAAJ&hl=en"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  semantic         : # URL
-  ssrn             : # URL
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -156,13 +150,10 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
+  teams:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
     output: true
     permalink: /:collection/:path/
 
@@ -188,10 +179,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _teams
   - scope:
       path: ""
-      type: teaching
+      type: teams
     values:
       layout: single
       author_profile: true
@@ -215,14 +206,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _teams
-  - scope:
-      path: ""
-      type: teams
-    values:
-      layout: teams
-      author_profile: true
-      share: true
+  
 
 
 # Sass/SCSS
