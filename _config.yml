@@ -1,36 +1,36 @@
 # ---------------------------
 # Qi Lab — AcademicPages Config
-# Structural Biology & Neurodegeneration
 # ---------------------------
 
-# Basic site info
 title: "Qi Lab"
 name: "Qi Lab"
-email: "chaoqi@bjmu.edu.cn"
+email: "your@email.com"
 description: >
-  We investigate the molecular mechanisms driving neurodegenerative diseases 
-  using cryo-electron microscopy (cryo-EM), cryo-electron tomography (cryo-ET), 
-  and in situ structural biology. Our research focuses on pathogenic tau filaments, 
+  We investigate the molecular mechanisms driving neurodegenerative diseases
+  using cryo-electron microscopy (cryo-EM), cryo-electron tomography (cryo-ET),
+  and in situ structural biology. Our research focuses on pathogenic tau filaments,
   MAPT mutations, and amyloid propagation mechanisms.
 
-# Base URL and GitHub Pages
-baseurl: ""           # leave empty for root domain
-url: "https://QiLab-PKU.github.io/Qilab"  # change to your GitHub Pages URL
+# Use remote_theme to avoid missing theme errors
+site theme: "default"
 
-# Theme
-site_theme: "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" 
-repository: "academicpages/academicpages.github.io"
-# Author info (for citation purposes)
+# Site URL
+baseurl: ""
+url: "https://yourusername.github.io"
+
+# Author info
 author:
   name: "Chao Qi"
-  email: "chaoqi@bjmu.edu.cn"
-  url: "https://QiLab-PKU.github.io"
+  email: "your@email.com"
+  url: "https://yourusername.github.io"
 
 # Social links
 social:
+  github: "yourusername"
+  linkedin: "your-linkedin-profile"
   twitter: "your-twitter-handle"
-  orcid: "0000-0000-0000-0000"  # replace with your ORCID
-  scholar: "https://scholar.google.com/citations?user=5cZdsEoAAAAJ&hl=en"
+  orcid: "0000-0000-0000-0000"
+  scholar: "YOUR_GOOGLE_SCHOLAR_ID"
 
 # Navigation order
 nav_order:
@@ -42,13 +42,7 @@ nav_order:
   - News
   - Contact
 
-# Default settings
-markdown: kramdown
-kramdown:
-  input: GFM
-plugins_dir: _plugins
-
-# Collections (publications, talks, teaching)
+# Collections
 collections:
   publications:
     output: true
@@ -57,26 +51,12 @@ collections:
   teaching:
     output: true
 
-# Permalinks
 permalink: /:collection/:title/
 
-# Pagination (if needed)
-paginate: 10
-
-# Enable future posts
-future: true
-
-# Exclude unnecessary files from Jekyll build
+# Exclude unnecessary files
 exclude:
   - node_modules
   - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
-
-# ---------------------------
-# Optional settings (uncomment if needed)
-# ---------------------------
-# github_repo: "yourusername/yourrepo"
-# lang: "en"
-# theme_color: "#003366" # dark blue for lab branding
