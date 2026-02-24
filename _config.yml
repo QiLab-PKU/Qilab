@@ -18,8 +18,8 @@ baseurl: ""           # leave empty for root domain
 url: "https://QiLab-PKU.github.io"  # change to your GitHub Pages URL
 
 # Theme
-remote_theme: "pixelastic/academicpages"
-
+site_theme: "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" 
+repository: "academicpages/academicpages.github.io"
 # Author info (for citation purposes)
 author:
   name: "Chao Qi"
