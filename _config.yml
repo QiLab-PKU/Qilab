@@ -16,17 +16,17 @@ site theme: "default"
 
 # Site URL
 baseurl: ""
-url: "https://yourusername.github.io"
+url: "https://QiLab-PKU.github.io"
 
 # Author info
 author:
   name: "Chao Qi"
   email: "your@email.com"
-  url: "https://yourusername.github.io"
+  url: "https://QiLab-PKU.github.io"
 
 # Social links
 social:
-  github: "yourusername"
+  github: "QiLab-PKU"
   linkedin: "your-linkedin-profile"
   twitter: "your-twitter-handle"
   orcid: "0000-0000-0000-0000"
