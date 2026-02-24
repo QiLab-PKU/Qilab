@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## Welcome to the Qi Lab
 
 The Qi Lab investigates the molecular mechanisms driving neurodegenerative diseases using cryo-electron microscopy (cryo-EM), cryo-electron tomography (cryo-ET), and in situ structural biology.
 
