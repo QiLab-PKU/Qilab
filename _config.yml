@@ -15,7 +15,7 @@ description: >
 
 # Base URL and GitHub Pages
 baseurl: ""           # leave empty for root domain
-url: "https://QiLab-PKU.github.io"  # change to your GitHub Pages URL
+url: "https://QiLab-PKU.github.io/Qilab"  # change to your GitHub Pages URL
 
 # Theme
 site_theme: "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" 
